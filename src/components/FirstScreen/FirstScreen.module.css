@@ -1,0 +1,85 @@
+.firstScreen {
+    background: radial-gradient(40% 40%, black, transparent), linear-gradient(to bottom, transparent , rgba(0,0,0, .35)), url(../../img/background.jpg)  center center/cover no-repeat;
+    min-height: 509px;
+}
+
+.center{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.title {
+    margin-top: 210px;
+    font-family: 'Alegreya Sans SC';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 50px;
+    line-height: 60px;
+    text-align: center;
+    color: #FFFFFF;
+}
+
+.time {
+    font-family: 'Alegreya Sans SC';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 30px;
+    line-height: 36px;
+    color: #FFFFFF;
+    margin-bottom: 96px;
+}
+
+.btn {
+    padding: 12px 60px;
+    background: #FFFFFF;
+    font-family: 'Proxima Nova';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 17px;
+    color: #000000;
+    cursor: pointer;
+}
+
+.wr {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+}
+
+.arrowLeft, .arrowRight {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 40px;
+    height: 40px;
+    border: 1px solid white;
+    cursor: pointer;
+}
+
+.blackLeft, .blackRight {
+    display: none;
+}
+
+.arrowLeft:hover, .arrowRight:hover {
+    background-color: white;
+}
+
+.arrowLeft:hover .whiteLeft {
+    display: none;
+}
+
+.arrowLeft:hover .blackLeft {
+    display: block;
+}
+
+.arrowRight:hover .whiteRight {
+    display: none;
+}
+
+.arrowRight:hover .blackRight {
+    display: block;
+}

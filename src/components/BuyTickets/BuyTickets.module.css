@@ -1,0 +1,39 @@
+.BuyTickets {
+    padding: 50px 0 50px 0;
+}
+
+.header {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 16px;
+}
+
+.title {
+    font-family: 'Alegreya Sans SC';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 35px;
+    line-height: 40px;
+    color: #000000;
+}
+
+.num {
+    font-family: 'Alegreya Sans SC';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 35px;
+    line-height: 40px;
+    color: #000000;
+}
+
+span {
+    color:#E0E0E0;
+}
+
+.users {
+    display: flex;
+    justify-content: flex-start;
+    flex-wrap: wrap;
+    gap: 13px;
+}
+

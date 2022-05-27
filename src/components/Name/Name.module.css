@@ -1,0 +1,60 @@
+.Name {
+    border-bottom: 1px solid black;
+    height: 110px;
+    margin-bottom: 25px;
+}
+
+.title {
+    border-right: 1px solid black;
+    border-left: 1px solid black;
+    font-family: 'Alegreya Sans SC';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 35px;
+    line-height: 40px;
+    color: #000000;
+    padding: 11px 0 13px 18px;
+}
+
+.descrip {
+    display: flex;
+    border-right: 1px solid black;
+    border-left: 1px solid black;
+}
+
+.city, .email, .tel {
+    border-right: 1px solid black;
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16.5px;
+    line-height: 45px;
+    color: #000000;
+    padding: 0 18px 0 18px;
+    flex:1 1 auto;
+}
+
+.message, .goConc {
+    background: #101010;
+    padding: 0 31.4px 0 31.4px;
+    border-right: 1px solid black;
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 11px;
+    color: #FFFFFF;cursor: pointer;
+    height: 46px;
+    flex:1 1 auto;
+}
+
+.goConc {
+    margin-left: 2px;
+}
+
+.line {
+    position: absolute;
+    width: 3000px;
+    height: 1px;
+    background-color: #000;
+    left: -1000px;
+}

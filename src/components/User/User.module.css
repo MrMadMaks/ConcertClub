@@ -1,0 +1,50 @@
+.user {
+    padding: 14px 0 15px 17px;
+    width: 239px;
+    height: 143px;
+    border: 1px solid #DADADA;
+}
+
+.name {
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 17px;
+    line-height: 23px;
+    text-transform: capitalize;
+    color: #000000;
+}
+
+.city {
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 17px;
+    color: rgba(0, 0, 0, 0.41);
+    margin-bottom: 35px;
+}
+
+.prof {
+    padding: 10px 20px;
+    background: #101010;
+    border: 1px solid #0D1E4B;
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 11px;
+    line-height: 15px;
+    text-transform: capitalize;
+    color: #FFFFFF;
+    cursor: pointer;
+}
+
+.link {
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 11px;
+    line-height: 15px;
+    text-transform: capitalize;
+    color: #FFFFFF;
+}

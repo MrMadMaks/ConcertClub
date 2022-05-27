@@ -1,0 +1,27 @@
+.Publications {
+    padding: 23px 0 41px 0;
+}
+
+.title {
+    font-family: 'Alegreya Sans SC';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 35px;
+    line-height: 40px;
+    color: #000000;
+    margin-bottom: 20px;
+}
+
+.pub {
+    display: flex;
+}
+
+.pubItem {
+    width: 154px;
+    height: 154px;
+    background-color: #63B4EE;
+}
+
+.pubItem:not(:last-child) {
+    margin-right: 15px;
+}

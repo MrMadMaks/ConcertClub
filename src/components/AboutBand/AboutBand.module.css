@@ -1,0 +1,25 @@
+.AboutBand {
+    display: flex;
+    justify-content: space-between;
+    padding-bottom: 35px;
+}
+
+.title {
+    font-family: 'Alegreya Sans SC';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 35px;
+    line-height: 40px;
+    color: #000000;
+    margin-bottom: 16px;
+    margin-right: 28px;
+}
+
+.descr {
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 15px;
+    line-height: 24px;
+    color: #939393;
+}
